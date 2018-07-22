@@ -1,0 +1,12 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#62a8ea",
+    "navigationBarTitleText": "北京盛广信合知识产权",
+    "navigationBarTextStyle":"white"
+  }
+}

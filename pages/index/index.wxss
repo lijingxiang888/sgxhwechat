@@ -1,0 +1,252 @@
+/**index.wxss**/
+.indexBody {
+  width: 100%;
+  height: auto;
+  font-size: 26rpx;
+  background-color: #f0f0f0;
+}
+/**轮播图**/
+swiper {
+  height: 345rpx;
+}
+swiper image {
+  display: block;
+  width: 90%;
+  height: 90%;
+  margin: 20rpx auto;
+  border-radius: 30rpx;
+  box-shadow: 0 0 30rpx #999;
+}
+/**服务类别**/
+.family {
+  width: 100%;
+  height: 180rpx;
+  margin-top: 30rpx;
+  box-shadow: 0 0 45rpx #ccc;
+  background-color: #fff;
+}
+.family .family-item {
+  float: left;
+  width: 25%;
+  height: 100%;
+  padding-top: 20rpx;
+  box-sizing: border-box
+}
+.family .family-item image {
+  display: block;
+  width: 70rpx;
+  height: 70rpx;
+  margin: 0 auto;
+  margin-bottom: 15rpx;
+}
+.family .family-item text {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  color: #333;
+}
+/**热门推荐**/
+.hot {
+  width: 100%;
+  height: 530rpx;
+  padding: 20rpx;
+  margin-top: 25rpx;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+.hot .hot-title {
+  display: inline-block;
+  width: 100%;
+  height: 80rpx;
+  font-size: 30rpx;
+  font-weight: bold;
+  text-align: center;
+}
+.hot .hot-wrap {
+  width: 100%;
+  height: 400rpx;
+  box-sizing: border-box;
+}
+.hot .hot-wrap .hot-item {
+  float: left;
+  width: 48%;
+  height: 170rpx;
+  margin: 7rpx;
+  box-shadow: 0 3rpx 20rpx 15rpx #f6f6f6;
+  border-radius: 30rpx;
+}
+.hot .hot-wrap .hot-item:nth-of-type(1) {
+  background: url('https://note.youdao.com/yws/api/personal/file/78F9891A553046FBAC9EE339CA90FC44?method=download&shareKey=14737cb0902ee599178c8c872a6a9a67') no-repeat;
+  background-size: cover;
+}
+.hot .hot-wrap .hot-item:nth-of-type(2) {
+  background: url('https://note.youdao.com/yws/api/personal/file/F59428772A864D1DADC1668D5A7D8670?method=download&shareKey=de34c38dc041fc6e8c75f01ff92e3caa') no-repeat;
+  background-size: cover;
+}
+.hot .hot-wrap .hot-item:nth-of-type(3) {
+  background: url('https://note.youdao.com/yws/api/personal/file/CDD31814D28A45898620732D8CB0E759?method=download&shareKey=19ef54c157e90a973c3fc17e83b8b9fe') no-repeat;
+  background-size: cover;
+}
+.hot .hot-wrap .hot-item:nth-of-type(4) {
+  background: url('https://note.youdao.com/yws/api/personal/file/07E2EE0F2BD342889904C654FBB869C7?method=download&shareKey=1c0be0294e2818932402c102dd9cd877') no-repeat;
+  background-size: cover;
+}
+/**商标服务**/
+.trademark {
+  width: 100%;
+  height: 530rpx;
+  padding: 20rpx;
+  margin-top: 25rpx;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+.trademark .trademark-title {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 80rpx;
+  font-size: 30rpx;
+  font-weight: bold;
+  text-align: center;
+}
+.trademark .more {
+  position: absolute;
+  right: 5rpx;
+  padding-right: 40rpx;
+  color: #999;
+  font-size: 26rpx;
+  font-weight: normal;
+  background: url('https://note.youdao.com/yws/api/personal/file/41770EBFE62F486E9494E9A10F189413?method=download&shareKey=c1e046dc224676b8cca355f94cfcb0b6') no-repeat;
+  background-position: 60rpx;
+  background-size: 16rpx 25rpx;
+}
+.trademark .trademark-itemMax {
+  display: flex;
+  justify-content: space-between;
+}
+.trademark .trademark-itemMax view {
+  width: 32%;
+  height: 120rpx;
+  line-height: 120rpx;
+  text-align: center;
+  color: #fff;
+ background: url('https://note.youdao.com/yws/api/personal/file/CBBD0806A32043589EAF2882A6EAD9A7?method=download&shareKey=a69f6cc5d73a8a8eae3f32261f899faa') no-repeat center;
+  border-radius: 20rpx;
+  box-shadow: 0 0 30rpx 8rpx #a9f1d7;
+}
+.trademark .trademark-itemMin {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 50rpx;
+}
+.trademark .trademark-itemMin view {
+  width: 32%;
+  height: 60rpx;
+  line-height: 60rpx;
+  margin-bottom: 20rpx;
+  text-align: center;
+  color: #666;
+  box-shadow: 0 0 25rpx 5rpx #efefef;
+}
+/**专利服务**/
+.patent {
+  width: 100%;
+  height: 530rpx;
+  padding: 20rpx;
+  margin-top: 25rpx;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+.patent .patent-title {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 80rpx;
+  font-size: 30rpx;
+  font-weight: bold;
+  text-align: center;
+}
+.patent .more {
+    position: absolute;
+  right: 5rpx;
+  padding-right: 40rpx;
+  color: #999;
+  font-size: 26rpx;
+  font-weight: normal;
+  background: url('https://note.youdao.com/yws/api/personal/file/41770EBFE62F486E9494E9A10F189413?method=download&shareKey=c1e046dc224676b8cca355f94cfcb0b6') no-repeat;
+  background-position: 60rpx;
+  background-size: 16rpx 25rpx;
+}
+.patent .patent-itemMax {
+  display: flex;
+  justify-content: space-between;
+}
+.patent .patent-itemMax view {
+  width: 32%;
+  height: 120rpx;
+  line-height: 120rpx;
+  text-align: center;
+  color: #fff;
+ background: url('https://note.youdao.com/yws/api/personal/file/13F07C4DA835423694DA6294C557225A?method=download&shareKey=ad3f7cf3f017e7e0b313f99a06af7862') no-repeat center;
+  border-radius: 20rpx;
+  box-shadow: 0 0 30rpx 8rpx #fdd1ba;
+}
+.patent .patent-itemMin {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 50rpx;
+}
+.patent .patent-itemMin view {
+  width: 32%;
+  height: 60rpx;
+  line-height: 60rpx;
+  margin-bottom: 20rpx;
+  text-align: center;
+  color: #666;
+  box-shadow: 0 0 25rpx 5rpx #efefef;
+}
+/**版权服务**/
+.copyright {
+  width: 100%;
+  height: 530rpx;
+  padding: 20rpx;
+  margin-top: 25rpx;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+.copyright .copyright-title {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 80rpx;
+  font-size: 30rpx;
+  font-weight: bold;
+  text-align: center;
+}
+.copyright .more {
+  position: absolute;
+  right: 5rpx;
+  padding-right: 40rpx;
+  color: #999;
+  font-size: 26rpx;
+  font-weight: normal;
+  background: url('https://note.youdao.com/yws/api/personal/file/41770EBFE62F486E9494E9A10F189413?method=download&shareKey=c1e046dc224676b8cca355f94cfcb0b6') no-repeat;
+  background-position: 60rpx;
+  background-size: 16rpx 25rpx;
+}
+.copyright .copyright-itemMax {
+  display: flex;
+  justify-content: space-between;
+}
+.copyright .copyright-itemMax view {
+  width: 32%;
+  height: 120rpx;
+  line-height: 120rpx;
+  text-align: center;
+  color: #fff;
+ background: url('https://note.youdao.com/yws/api/personal/file/96C6C3A6C40B408A8C889089F3CDE994?method=download&shareKey=dc5645c7261c168744d6aa3b4ef68efc') no-repeat center;
+  border-radius: 20rpx;
+  box-shadow: 0 0 30rpx 8rpx #bfddf6;
+}

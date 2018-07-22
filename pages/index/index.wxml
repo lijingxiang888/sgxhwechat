@@ -1,0 +1,84 @@
+<!--index.wxml-->
+<view class='indexBody'>
+    <!--轮播图-->
+    <swiper autoplay='{{true}}' interval='2000' indicator-dots='{{true}}' circular='{{true}}' indicator-active-color='#62a8ea'>
+        <swiper-item wx:for='{{imgs}}'>
+            <image src='{{item}}'></image>
+        </swiper-item>
+    </swiper>
+<!--大种类-->
+    <view class='family'>
+        <view class='family-item'>
+            <image src='/images/family_img1.png'></image>
+            <text>商标服务</text>
+        </view>
+        <view class='family-item'>
+            <image src='/images/family_img2.png'></image>
+            <text>专利服务</text>
+        </view>
+        <view class='family-item'>
+            <image src='/images/family_img3.png'></image>
+            <text>版权服务</text>
+        </view>
+        <view class='family-item'>
+            <image src='/images/family_img4.png'></image>
+            <text>创新服务</text>
+    </view>
+</view>
+    <!--热门推荐-->
+    <view class='hot'>
+        <text class='hot-title'>- 热门推荐 -</text>
+        <view class='hot-wrap'>
+            <view class='hot-item'></view>
+            <view class='hot-item'></view>
+            <view class='hot-item'></view>
+            <view class='hot-item'></view>
+        </view>
+    </view>
+    <!--商标服务-->
+    <view class='trademark'>
+        <text class='trademark-title'>- 商标服务 -<text class='more'>更多</text></text>
+        <view class='trademark-itemMax'>
+            <view>普通商标注册</view>
+            <view>商标加急注册</view>
+            <view>商标转让</view>
+        </view> 
+        <view class='trademark-itemMin'>
+            <view>国际商标</view>
+            <view>商标驳回复审</view>
+            <view>商标异议</view>
+            <view>商标变更</view>
+            <view>著名驰名商标</view>
+            <view>商标续展</view>
+        </view>
+    </view>
+    <!--专利服务-->
+    <view class='patent'>
+        <text class='patent-title'>- 商标服务 -<text class='more'>更多</text></text>
+        <view class='patent-itemMax'>
+            <view>发明专利申请</view>
+            <view>实用新型申请</view>
+            <view>外观设计申请</view>
+        </view> 
+        <view class='patent-itemMin'>
+            <view>国际专利</view>
+            <view>专利申请复审</view>
+            <view>专利无效宣告</view>
+            <view>专利权恢复</view>
+            <view>著录项目变更</view>
+            <view>专利许可备案</view>
+        </view>
+    </view>
+    <!--版权服务-->
+    <view class='copyright'>
+        <text class='copyright-title'>- 版权服务 -<text class='more'>更多</text></text>
+        <view class='copyright-itemMax'>
+            <view>软件著作权</view>
+            <view>作品著作权</view>
+            <view>软件著作权</view>
+        </view> 
+        <button bindtap='tel'>18611258636</button>
+
+    </view>
+</view>
+
