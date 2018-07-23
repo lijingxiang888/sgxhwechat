@@ -6,7 +6,7 @@
             <image src='{{item}}'></image>
         </swiper-item>
     </swiper>
-<!--大种类-->
+    <!--大种类-->
     <view class='family'>
         <view class='family-item'>
             <image src='/images/family_img1.png'></image>
@@ -23,8 +23,8 @@
         <view class='family-item'>
             <image src='/images/family_img4.png'></image>
             <text>创新服务</text>
+        </view>
     </view>
-</view>
     <!--热门推荐-->
     <view class='hot'>
         <text class='hot-title'>- 热门推荐 -</text>
@@ -42,7 +42,7 @@
             <view>普通商标注册</view>
             <view>商标加急注册</view>
             <view>商标转让</view>
-        </view> 
+        </view>
         <view class='trademark-itemMin'>
             <view>国际商标</view>
             <view>商标驳回复审</view>
@@ -59,7 +59,7 @@
             <view>发明专利申请</view>
             <view>实用新型申请</view>
             <view>外观设计申请</view>
-        </view> 
+        </view>
         <view class='patent-itemMin'>
             <view>国际专利</view>
             <view>专利申请复审</view>
@@ -76,9 +76,47 @@
             <view>软件著作权</view>
             <view>作品著作权</view>
             <view>软件著作权</view>
-        </view> 
-        <button bindtap='tel'>18611258636</button>
-
+        </view>
+    </view>
+    <!--拨打电话-->
+    <view class='btn'>
+        <button bindtap='tel'>186-1125-8636</button>
+        <image src='/images/cellTel.png'></image>
+    </view>
+    <!--专、快、好、省-->
+    <view class='slogan'>
+        <view class='slogan-item'>
+            <image src='/images/slogan1.png'></image>
+            <view class='txt'> 
+                <text>团队<text class='txt-red'>专</text>，服务<text class='txt-red'>专</text></text>
+                <text>一对一，专家服务</text>
+            </view>
+        </view>
+        <view class='slogan-item'>
+            <image src='/images/slogan2.png'></image>
+            <view class='txt'> 
+                <text>响应<text class='txt-yellow'>快</text>，定稿<text class='txt-yellow'>快</text></text>
+                <text>撰写高效，递交快捷</text>
+            </view>
+        </view>
+        <view class='slogan-item'>
+            <image src='/images/slogan3.png'></image>
+            <view class='txt'> 
+                <text>质量<text class='txt-green'>好</text>，保密<text class='txt-green'>好</text></text>
+                <text>授权率高，安全性强</text>
+            </view>
+        </view>
+        <view class='slogan-item'>
+            <image src='/images/slogan4.png'></image>
+            <view class='txt'> 
+                <text><text class='txt-blue'>省</text>费用，<text class='txt-blue'>省</text>心力</text>
+                <text>全程托管，进度可查</text>
+            </view>
+        </view>
+    </view>
+    <!--底部信息-->
+    <view class='copy'>
+        <text>Copyright © 2013-2018 bjsgxh.cn</text>
+        <text>申注网提供技术支持</text>
     </view>
 </view>
-

@@ -1,12 +1,39 @@
 {
-  "pages":[
-    "pages/index/index",
-    "pages/logs/logs"
-  ],
-  "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#62a8ea",
-    "navigationBarTitleText": "北京盛广信合知识产权",
-    "navigationBarTextStyle":"white"
-  }
+    "pages": [
+        "pages/index/index",
+        "pages/sort/sort",
+        "pages/site/site"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#62a8ea",
+        "navigationBarTitleText": "北京盛广信合知识产权",
+        "navigationBarTextStyle": "white"
+    },
+    "tabBar": {
+        "borderStyle": "#e44",
+        "backgroundColor": "white",
+        "color": "#666",
+        "selectedColor": "#62a8ea",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "",
+                "selectedIconPath": ""
+            },
+            {
+                "pagePath": "pages/sort/sort",
+                "text": "分类",
+                "iconPath": "",
+                "selectedIconPath": ""
+            },
+            {
+                "pagePath": "pages/site/site",
+                "text": "导航",
+                "iconPath": "",
+                "selectedIconPath": ""
+            }
+        ]
+    }
 }
