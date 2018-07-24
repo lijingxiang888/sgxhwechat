@@ -13,26 +13,26 @@
     "tabBar": {
         "borderStyle": "#e44",
         "backgroundColor": "white",
-        "color": "#666",
+        "color": "#c0c0c0",
         "selectedColor": "#62a8ea",
         "list": [
             {
                 "pagePath": "pages/index/index",
                 "text": "首页",
-                "iconPath": "",
-                "selectedIconPath": ""
+                "iconPath": "/images/tabBar-index.png",
+                "selectedIconPath": "/images/tabBar-index-hover.png"
             },
             {
                 "pagePath": "pages/sort/sort",
                 "text": "分类",
-                "iconPath": "",
-                "selectedIconPath": ""
+                "iconPath": "/images/tabBar-family.png",
+                "selectedIconPath": "/images/tabBar-family-hover.png"
             },
             {
                 "pagePath": "pages/site/site",
                 "text": "导航",
-                "iconPath": "",
-                "selectedIconPath": ""
+                "iconPath": "/images/tabBar-site.png",
+                "selectedIconPath": "/images/tabBar-site-hover.png"
             }
         ]
     }
