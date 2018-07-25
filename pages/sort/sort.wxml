@@ -1,0 +1,29 @@
+<view class="tab">
+  <view class="tab-left" bindtap="tabFun">
+    <view class="{{tabArr.curHdIndex=='0'? 'active' : ''}}" id="tab-hd01" data-id="0">商标服务</view>
+    <view class="{{tabArr.curHdIndex=='1'? 'active' : ''}}" id="tab-hd02" data-id="1">专利服务</view>
+    <view class="{{tabArr.curHdIndex=='2'? 'active' : ''}}" id="tab-hd03" data-id="2">版权服务</view>
+    <view class="{{tabArr.curHdIndex=='3'? 'active' : ''}}" id="tab-hd04" data-id="3">创新服务</view>
+  </view>
+  <view class="tab-right">
+    <view class="right-item {{tabArr.curBdIndex=='0'? 'active' : ''}}">
+        <view class="list-content">
+            <text>商标服务</text>
+            <view class="list-wrap">
+                <view class="list">
+                    <text>普通商标注册</text>
+                </view>
+                <view class="list">
+                    <text>普通商标注册</text>
+                </view>
+                <view class="list">
+                    <text>普通商标注册</text>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="right-item {{tabArr.curBdIndex=='1'? 'active' : ''}}">tab-bd02</view>
+    <view class="right-item {{tabArr.curBdIndex=='2'? 'active' : ''}}">tab-bd03</view>
+    <view class="right-item {{tabArr.curBdIndex=='3'? 'active' : ''}}">tab-bd04</view>
+  </view>
+</view>

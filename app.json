@@ -1,12 +1,13 @@
 {
     "pages": [
+      "pages/sort/sort",
         "pages/index/index",
-        "pages/sort/sort",
+       
         "pages/site/site"
     ],
     "window": {
         "backgroundTextStyle": "light",
-        "navigationBarBackgroundColor": "#62a8ea",
+        "navigationBarBackgroundColor": "#3397f5",
         "navigationBarTitleText": "北京盛广信合知识产权",
         "navigationBarTextStyle": "white"
     },
@@ -14,7 +15,7 @@
         "borderStyle": "#e44",
         "backgroundColor": "white",
         "color": "#c0c0c0",
-        "selectedColor": "#62a8ea",
+        "selectedColor": "#3397f5",
         "list": [
             {
                 "pagePath": "pages/index/index",

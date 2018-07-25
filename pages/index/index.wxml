@@ -54,7 +54,7 @@
     </view>
     <!--专利服务-->
     <view class='patent'>
-        <text class='patent-title'>- 商标服务 -<text class='more'>更多</text></text>
+        <text class='patent-title'>- 专利服务 -<text class='more'>更多</text></text>
         <view class='patent-itemMax'>
             <view>发明专利申请</view>
             <view>实用新型申请</view>
