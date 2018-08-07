@@ -21,6 +21,11 @@ Page({
                 console.log('拨打电话失败')
             }
         })
+    },
+    gomore: function() {
+        wx.navigateTo({
+            url: '../sort/sort.wxml'
+        })
     }
 
 })

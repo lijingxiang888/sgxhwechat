@@ -37,7 +37,7 @@
     </view>
     <!--商标服务-->
     <view class='trademark'>
-        <text class='trademark-title'>- 商标服务 -<text class='more'>更多</text></text>
+        <text class='trademark-title'>- 商标服务 -<text class='more' bindtap='gomore'>更多</text></text>
         <view class='trademark-itemMax'>
             <view>普通商标注册</view>
             <view>商标加急注册</view>

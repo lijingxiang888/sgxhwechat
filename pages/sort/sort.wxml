@@ -9,17 +9,68 @@
     <view class="right-item {{tabArr.curBdIndex=='0'? 'active' : ''}}">
         <view class="list-content">
             <text>商标服务</text>
-            <view class="list-wrap">
+            <view class="list-wrap list-wrap1">
                 <view class="list">
                     <text>普通商标注册</text>
                 </view>
                 <view class="list">
-                    <text>普通商标注册</text>
+                    <text>商标复审</text>
                 </view>
                 <view class="list">
-                    <text>普通商标注册</text>
+                    <text>商标变通加急</text>
+                </view>
+                <view class="list">
+                    <text>国际商标</text>
+                </view>
+                <view class="list">
+                    <text>集体商标注册</text>
+                </view>
+                <view class="list">
+                    <text>证明商标注册</text>
+                </view>
+                <view class="list">
+                    <text>申请商标更正</text>
+                </view>
+                <view class="list">
+                    <text>商标加急注册</text>
+                </view>
+                <view class="list">
+                    <text>商标注册证明</text>
+                </view>
+                <view class="list">
+                    <text>补发商标注册</text>
                 </view>
             </view>
+             <text>商标周边</text>
+             <view class='list-wrap list-wrap2'>
+                <view class="list">
+                    <text>商标异议</text>
+                </view>
+                <view class="list">
+                    <text>商标设计</text>
+                </view>
+                <view class="list">
+                    <text>商标续展</text>
+                </view>
+                <view class="list">
+                    <text>注销商标</text>
+                </view>
+                <view class="list">
+                    <text>商标深度查询</text>
+                </view>
+                <view class="list">
+                    <text>商标质押评估</text>
+                </view>
+                <view class="list">
+                    <text>著名驰名商标</text>
+                </view>
+                <view class="list">
+                    <text>商标变更</text>
+                </view>
+                <view class="list">
+                    <text>商标转让</text>
+                </view>
+             </view>
         </view>
     </view>
     <view class="right-item {{tabArr.curBdIndex=='1'? 'active' : ''}}">tab-bd02</view>
