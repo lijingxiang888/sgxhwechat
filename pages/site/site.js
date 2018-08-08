@@ -1,6 +1,6 @@
 // pages/site/site.js
 Page({
-
+    
     data: {
         markers:[{
             iconPath:"/images/site-icon.png",

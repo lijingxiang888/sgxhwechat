@@ -1,10 +1,11 @@
 .tab {
     display: flex;
+    height: 100vh;
 }
 
 .tab-left {
     width: 240rpx;
-    height: 120vh;
+    height: 100%;
     font-size: 28rpx;
     background-color: #f5f5f5;
 }
@@ -35,7 +36,9 @@
 
 .tab-right {
     width: 100%;
+    height: 100%;
     font-size: 26rpx;
+    overflow: auto;
 }
 
 .tab-right .right-item {
@@ -45,14 +48,13 @@
 
 .tab-right .right-item.active {
     display: block;
-    /**https://note.youdao.com/yws/api/personal/file/75522992F91340F8A2FCFA385A578B77?method=download&shareKey=130d7cb9805cac916b695d1bb5710609**/
-
-    /**https://note.youdao.com/yws/api/personal/file/D373E25E9646419CBB1A9314E2F779B6?method=download&shareKey=dd18f38fd09fae0ddd232458031f040f**/
+    /**https://note.youdao.com/yws/api/personal/file/75522992F91340F8A2FCFA385A578B77?method=download&shareKey=130d7cb9805cac916b695d1bb5710609**//**https://note.youdao.com/yws/api/personal/file/D373E25E9646419CBB1A9314E2F779B6?method=download&shareKey=dd18f38fd09fae0ddd232458031f040f**/
 }
 
 .right-item .list-content {
     width: 100%;
 }
+
 .list-content > text {
     display: block;
     width: 100%;
@@ -63,45 +65,235 @@
     font-weight: bold;
     background: url('https://note.youdao.com/yws/api/personal/file/D373E25E9646419CBB1A9314E2F779B6?method=download&shareKey=dd18f38fd09fae0ddd232458031f040f') no-repeat center;
 }
+
 .list-content .list-wrap {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
+
 .list-content .list-wrap .list {
     position: relative;
     width: 120rpx;
     height: 170rpx;
+    margin-right: 19rpx;
 }
+
 .list-content .list-wrap .list text {
     position: absolute;
     bottom: 0;
     width: 100%;
     height: 48rpx;
+    font-size: 22rpx;
     text-align: center;
     background-color: #fff;
 }
+
+/*商标服务*/
+
 .list-content .list-wrap1 .list:nth-of-type(1) {
     background: url('https://note.youdao.com/yws/api/personal/file/75522992F91340F8A2FCFA385A578B77?method=download&shareKey=130d7cb9805cac916b695d1bb5710609');
     background-size: 648rpx 1404rpx;
     background-position-x: 12rpx;
     background-position-y: 0;
 }
+
 .list-content .list-wrap1 .list:nth-of-type(2) {
     background: url('https://note.youdao.com/yws/api/personal/file/75522992F91340F8A2FCFA385A578B77?method=download&shareKey=130d7cb9805cac916b695d1bb5710609');
     background-size: 648rpx 1404rpx;
     background-position-x: 115rpx;
     background-position-y: -650rpx;
 }
+
 .list-content .list-wrap1 .list:nth-of-type(3) {
     background: url('https://note.youdao.com/yws/api/personal/file/75522992F91340F8A2FCFA385A578B77?method=download&shareKey=130d7cb9805cac916b695d1bb5710609');
     background-size: 648rpx 1404rpx;
     background-position-x: -200rpx;
     background-position-y: -433rpx;
 }
+
 .list-content .list-wrap1 .list:nth-of-type(4) {
     background: url('https://note.youdao.com/yws/api/personal/file/75522992F91340F8A2FCFA385A578B77?method=download&shareKey=130d7cb9805cac916b695d1bb5710609');
     background-size: 648rpx 1404rpx;
     background-position-x: -315rpx;
     background-position-y: -645rpx;
+}
+
+.list-content .list-wrap1 .list:nth-of-type(5) {
+    background: url('https://note.youdao.com/yws/api/personal/file/75522992F91340F8A2FCFA385A578B77?method=download&shareKey=130d7cb9805cac916b695d1bb5710609');
+    background-size: 648rpx 1404rpx;
+    background-position-x: 115rpx;
+    background-position-y: -415rpx;
+}
+
+.list-content .list-wrap1 .list:nth-of-type(6) {
+    background: url('https://note.youdao.com/yws/api/personal/file/75522992F91340F8A2FCFA385A578B77?method=download&shareKey=130d7cb9805cac916b695d1bb5710609');
+    background-size: 648rpx 1404rpx;
+    background-position-x: 10rpx;
+    background-position-y: -525rpx;
+}
+
+.list-content .list-wrap1 .list:nth-of-type(7) {
+    background: url('https://note.youdao.com/yws/api/personal/file/75522992F91340F8A2FCFA385A578B77?method=download&shareKey=130d7cb9805cac916b695d1bb5710609');
+    background-size: 648rpx 1404rpx;
+    background-position-x: 220rpx;
+    background-position-y: -850rpx;
+}
+
+.list-content .list-wrap1 .list:nth-of-type(8) {
+    background: url('https://note.youdao.com/yws/api/personal/file/75522992F91340F8A2FCFA385A578B77?method=download&shareKey=130d7cb9805cac916b695d1bb5710609');
+    background-size: 648rpx 1404rpx;
+    background-position-x: 335rpx;
+    background-position-y: -1065rpx;
+}
+
+.list-content .list-wrap1 .list:nth-of-type(9) {
+    background: url('https://note.youdao.com/yws/api/personal/file/75522992F91340F8A2FCFA385A578B77?method=download&shareKey=130d7cb9805cac916b695d1bb5710609');
+    background-size: 648rpx 1404rpx;
+    background-position-x: 8rpx;
+    background-position-y: -955rpx;
+}
+
+.list-content .list-wrap1 .list:nth-of-type(10) {
+    background: url('https://note.youdao.com/yws/api/personal/file/75522992F91340F8A2FCFA385A578B77?method=download&shareKey=130d7cb9805cac916b695d1bb5710609');
+    background-size: 648rpx 1404rpx;
+    background-position-x: 115rpx;
+    background-position-y: -845rpx;
+}
+
+/*商标周边*/
+
+.list-content .list-wrap2 .list:nth-of-type(1) {
+    background: url('https://note.youdao.com/yws/api/personal/file/75522992F91340F8A2FCFA385A578B77?method=download&shareKey=130d7cb9805cac916b695d1bb5710609');
+    background-size: 648rpx 1404rpx;
+    background-position-x: 10rpx;
+    background-position-y: -745rpx;
+}
+
+.list-content .list-wrap2 .list:nth-of-type(2) {
+    background: url('https://note.youdao.com/yws/api/personal/file/75522992F91340F8A2FCFA385A578B77?method=download&shareKey=130d7cb9805cac916b695d1bb5710609');
+    background-size: 648rpx 1404rpx;
+    background-position-x: -100rpx;
+    background-position-y: -965rpx;
+}
+
+.list-content .list-wrap2 .list:nth-of-type(3) {
+    background: url('https://note.youdao.com/yws/api/personal/file/75522992F91340F8A2FCFA385A578B77?method=download&shareKey=130d7cb9805cac916b695d1bb5710609');
+    background-size: 648rpx 1404rpx;
+    background-position-x: 10rpx;
+    background-position-y: -855rpx;
+}
+
+.list-content .list-wrap2 .list:nth-of-type(4) {
+    background: url('https://note.youdao.com/yws/api/personal/file/75522992F91340F8A2FCFA385A578B77?method=download&shareKey=130d7cb9805cac916b695d1bb5710609');
+    background-size: 648rpx 1404rpx;
+    background-position-x: -210rpx;
+    background-position-y: -855rpx;
+}
+
+.list-content .list-wrap2 .list:nth-of-type(5) {
+    background: url('https://note.youdao.com/yws/api/personal/file/75522992F91340F8A2FCFA385A578B77?method=download&shareKey=130d7cb9805cac916b695d1bb5710609');
+    background-size: 648rpx 1404rpx;
+    background-position-x: 220rpx;
+    background-position-y: -1070rpx;
+}
+
+.list-content .list-wrap2 .list:nth-of-type(6) {
+    background: url('https://note.youdao.com/yws/api/personal/file/75522992F91340F8A2FCFA385A578B77?method=download&shareKey=130d7cb9805cac916b695d1bb5710609');
+    background-size: 648rpx 1404rpx;
+    background-position-x: -210rpx;
+    background-position-y: -965rpx;
+}
+
+.list-content .list-wrap2 .list:nth-of-type(7) {
+    background: url('https://note.youdao.com/yws/api/personal/file/75522992F91340F8A2FCFA385A578B77?method=download&shareKey=130d7cb9805cac916b695d1bb5710609');
+    background-size: 648rpx 1404rpx;
+    background-position-x: -100rpx;
+    background-position-y: -535rpx;
+}
+
+.list-content .list-wrap2 .list:nth-of-type(8) {
+    background: url('https://note.youdao.com/yws/api/personal/file/75522992F91340F8A2FCFA385A578B77?method=download&shareKey=130d7cb9805cac916b695d1bb5710609');
+    background-size: 648rpx 1404rpx;
+    background-position-x: 115rpx;
+    background-position-y: -750rpx;
+}
+
+.list-content .list-wrap2 .list:nth-of-type(9) {
+    background: url('https://note.youdao.com/yws/api/personal/file/75522992F91340F8A2FCFA385A578B77?method=download&shareKey=130d7cb9805cac916b695d1bb5710609');
+    background-size: 648rpx 1404rpx;
+    background-position-x: -320rpx;
+    background-position-y: -850rpx;
+}
+/*专利分析*/
+.list-content .list-wrap3 .list:nth-of-type(1) {
+    background: url('https://note.youdao.com/yws/api/personal/file/75522992F91340F8A2FCFA385A578B77?method=download&shareKey=130d7cb9805cac916b695d1bb5710609');
+    background-size: 648rpx 1404rpx;
+    background-position-x: 10rpx;
+    background-position-y: -430rpx;
+}
+
+.list-content .list-wrap3 .list:nth-of-type(2) {
+    background: url('https://note.youdao.com/yws/api/personal/file/75522992F91340F8A2FCFA385A578B77?method=download&shareKey=130d7cb9805cac916b695d1bb5710609');
+    background-size: 648rpx 1404rpx;
+    background-position-x: -425rpx;
+    background-position-y: -645rpx;
+}
+
+/*专利申请*/
+
+/*专利周边*/
+
+/*办著作权*/
+.list-content .list-wrap6 .list:nth-of-type(1) {
+    background: url('https://note.youdao.com/yws/api/personal/file/75522992F91340F8A2FCFA385A578B77?method=download&shareKey=130d7cb9805cac916b695d1bb5710609');
+    background-size: 648rpx 1404rpx;
+    background-position-x: -320rpx;
+    background-position-y: -750rpx;
+}
+.list-content .list-wrap6 .list:nth-of-type(2) {
+    background: url('https://note.youdao.com/yws/api/personal/file/75522992F91340F8A2FCFA385A578B77?method=download&shareKey=130d7cb9805cac916b695d1bb5710609');
+    background-size: 648rpx 1404rpx;
+    background-position-x: 435rpx;
+    background-position-y: -1072rpx;
+}
+.list-content .list-wrap6 .list:nth-of-type(3) {
+    background: url('https://note.youdao.com/yws/api/personal/file/75522992F91340F8A2FCFA385A578B77?method=download&shareKey=130d7cb9805cac916b695d1bb5710609');
+    background-size: 648rpx 1404rpx;
+    background-position-x: 220rpx;
+    background-position-y: -430rpx;
+}
+/*高新服务*/
+
+/*资质认证*/
+
+/*企业服务*/
+
+/*法律服务*/
+
+
+/*客服*/
+/*客服*/
+.kf-btn {
+    position: fixed;
+    right: 50rpx;
+    bottom: 80rpx;
+    width: 80rpx;
+    height: 80rpx;
+    padding: 0;
+    padding-top: 8rpx;
+    margin: 0;
+    border: none;
+    background-color: #fff;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+.kf-btn::after {
+    border: none;
+}
+.kf-btn .kf-img {
+    width: 80rpx;
+    height: 70rpx;
+    z-index: 999;
 }

@@ -1,8 +1,8 @@
 {
     "pages": [
-      "pages/sort/sort",
+        "pages/sort/sort",
         "pages/index/index",
-       
+        
         "pages/site/site"
     ],
     "window": {

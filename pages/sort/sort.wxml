@@ -1,80 +1,255 @@
 <view class="tab">
-  <view class="tab-left" bindtap="tabFun">
-    <view class="{{tabArr.curHdIndex=='0'? 'active' : ''}}" id="tab-hd01" data-id="0">商标服务</view>
-    <view class="{{tabArr.curHdIndex=='1'? 'active' : ''}}" id="tab-hd02" data-id="1">专利服务</view>
-    <view class="{{tabArr.curHdIndex=='2'? 'active' : ''}}" id="tab-hd03" data-id="2">版权服务</view>
-    <view class="{{tabArr.curHdIndex=='3'? 'active' : ''}}" id="tab-hd04" data-id="3">创新服务</view>
-  </view>
-  <view class="tab-right">
-    <view class="right-item {{tabArr.curBdIndex=='0'? 'active' : ''}}">
-        <view class="list-content">
-            <text>商标服务</text>
-            <view class="list-wrap list-wrap1">
-                <view class="list">
-                    <text>普通商标注册</text>
+    <view class="tab-left" bindtap="tabFun">
+        <view class="{{tabArr.curHdIndex=='0'? 'active' : ''}}" id="tab-hd01" data-id="0">商标服务</view>
+        <view class="{{tabArr.curHdIndex=='1'? 'active' : ''}}" id="tab-hd02" data-id="1">专利服务</view>
+        <view class="{{tabArr.curHdIndex=='2'? 'active' : ''}}" id="tab-hd03" data-id="2">版权服务</view>
+        <view class="{{tabArr.curHdIndex=='3'? 'active' : ''}}" id="tab-hd04" data-id="3">企业服务</view>
+    </view>
+    <view class="tab-right">
+        <view class="right-item {{tabArr.curBdIndex=='0'? 'active' : ''}}">
+            <view class="list-content">
+                <text>商标服务</text>
+                <view class="list-wrap list-wrap1">
+                    <view class="list">
+                        <text>普通商标注册</text>
+                    </view>
+                    <view class="list">
+                        <text>商标复审</text>
+                    </view>
+                    <view class="list">
+                        <text>商标变通加急</text>
+                    </view>
+                    <view class="list">
+                        <text>国际商标</text>
+                    </view>
+                    <view class="list">
+                        <text>集体商标注册</text>
+                    </view>
+                    <view class="list">
+                        <text>证明商标注册</text>
+                    </view>
+                    <view class="list">
+                        <text>申请商标更正</text>
+                    </view>
+                    <view class="list">
+                        <text>商标加急注册</text>
+                    </view>
+                    <view class="list">
+                        <text>商标注册证明申请</text>
+                    </view>
+                    <view class="list">
+                        <text>补发商标注册证</text>
+                    </view>
                 </view>
-                <view class="list">
-                    <text>商标复审</text>
-                </view>
-                <view class="list">
-                    <text>商标变通加急</text>
-                </view>
-                <view class="list">
-                    <text>国际商标</text>
-                </view>
-                <view class="list">
-                    <text>集体商标注册</text>
-                </view>
-                <view class="list">
-                    <text>证明商标注册</text>
-                </view>
-                <view class="list">
-                    <text>申请商标更正</text>
-                </view>
-                <view class="list">
-                    <text>商标加急注册</text>
-                </view>
-                <view class="list">
-                    <text>商标注册证明</text>
-                </view>
-                <view class="list">
-                    <text>补发商标注册</text>
+                <text>商标周边</text>
+                <view class='list-wrap list-wrap2'>
+                    <view class="list">
+                        <text>商标异议</text>
+                    </view>
+                    <view class="list">
+                        <text>商标设计</text>
+                    </view>
+                    <view class="list">
+                        <text>商标续展</text>
+                    </view>
+                    <view class="list">
+                        <text>注销商标</text>
+                    </view>
+                    <view class="list">
+                        <text>商标深度查询</text>
+                    </view>
+                    <view class="list">
+                        <text>商标质押评估</text>
+                    </view>
+                    <view class="list">
+                        <text>著名驰名商标</text>
+                    </view>
+                    <view class="list">
+                        <text>商标变更</text>
+                    </view>
+                    <view class="list">
+                        <text>商标转让</text>
+                    </view>
                 </view>
             </view>
-             <text>商标周边</text>
-             <view class='list-wrap list-wrap2'>
-                <view class="list">
-                    <text>商标异议</text>
+        </view>
+        <view class="right-item {{tabArr.curBdIndex=='1'? 'active' : ''}}">
+            <view class="list-content">
+                <text>专利分析</text>
+                <view class="list-wrap list-wrap3">
+                    <view class="list">
+                        <text>专利挖掘分析</text>
+                    </view>
+                    <view class="list">
+                        <text>专利导航</text>
+                    </view>
+                    <view class="list">
+                        <text>专利侵权预警分析</text>
+                    </view>
+                    <view class="list">
+                        <text>专利战略分析</text>
+                    </view>
                 </view>
-                <view class="list">
-                    <text>商标设计</text>
+                <text>专利申请</text>
+                <view class='list-wrap list-wrap4'>
+                    <view class="list">
+                        <text>国外专利申请</text>
+                    </view>
+                    <view class="list">
+                        <text>巴黎公约专利申请</text>
+                    </view>
+                    <view class="list">
+                        <text>免费代缴专利年费</text>
+                    </view>
+                    <view class="list">
+                        <text>发明新型同日申请</text>
+                    </view>
+                    <view class="list">
+                        <text>PCT申请</text>
+                    </view>
+                    <view class="list">
+                        <text>专利实施许可备案</text>
+                    </view>
+                    <view class="list">
+                        <text>发明专利</text>
+                    </view>
+                    <view class="list">
+                        <text>实用新型专利</text>
+                    </view>
+                    <view class="list">
+                        <text>外观设计专利</text>
+                    </view>
                 </view>
-                <view class="list">
-                    <text>商标续展</text>
+                <text>专利周边</text>
+                <view class='list-wrap list-wrap5'>
+                    <view class="list">
+                        <text>专利申请复审</text>
+                    </view>
+                    <view class="list">
+                        <text>专利无效答辩</text>
+                    </view>
+                    <view class="list">
+                        <text>审查意见答复</text>
+                    </view>
+                    <view class="list">
+                        <text>专利权恢复</text>
+                    </view>
+                    <view class="list">
+                        <text>专利权评估报告</text>
+                    </view>
+                    <view class="list">
+                        <text>著录项目变更</text>
+                    </view>
+                    <view class="list">
+                        <text>专利管理软件</text>
+                    </view>
+                    <view class="list">
+                        <text>专利无效</text>
+                    </view>
+                    <view class="list">
+                        <text>专利数据库</text>
+                    </view>
                 </view>
-                <view class="list">
-                    <text>注销商标</text>
+            </view>
+        </view>
+        <view class="right-item {{tabArr.curBdIndex=='2'? 'active' : ''}}">
+            <view class='list-content'>
+                <text>办著作权</text>
+                <view class='list-wrap list-wrap6'>
+                    <view class="list">
+                        <text>软件著作权</text>
+                    </view>
+                    <view class="list">
+                        <text>作品著作权</text>
+                    </view>
+                    <view class="list">
+                        <text>著作权转让</text>
+                    </view>
                 </view>
-                <view class="list">
-                    <text>商标深度查询</text>
+            </view>
+        </view>
+        <view class="right-item {{tabArr.curBdIndex=='3'? 'active' : ''}}">
+            <view class='list-content'>
+                <text>高新服务</text>
+                <view class='list-wrap list-wrap7'>
+                    <view class="list">
+                        <text>高新申请</text>
+                    </view>
+                    <view class="list">
+                        <text>高新培育</text>
+                    </view>
+                    <view class="list">
+                        <text>创新基金申报</text>
+                    </view>
                 </view>
-                <view class="list">
-                    <text>商标质押评估</text>
+                <text>资质认证</text>
+                <view class='list-wrap list-wrap8'>
+                    <view class="list">
+                        <text>软件登记</text>
+                    </view>
+                    <view class="list">
+                        <text>18000认证</text>
+                    </view>
+                    <view class="list">
+                        <text>14000认证</text>
+                    </view>
+                    <view class="list">
+                        <text>ISO9000认证</text>
+                    </view>
                 </view>
-                <view class="list">
-                    <text>著名驰名商标</text>
+                <text>企业服务</text>
+                <view class='list-wrap list-wrap9'>
+                    <view class="list">
+                        <text>知识产权贯标服务</text>
+                    </view>
+                    <view class="list">
+                        <text>两话融合</text>
+                    </view>
+                    <view class="list">
+                        <text>融资上市</text>
+                    </view>
+                    <view class="list">
+                        <text>企业文化培训</text>
+                    </view>
+                    <view class="list">
+                        <text>企业站制作</text>
+                    </view>
+                    <view class="list">
+                        <text>公司变更</text>
+                    </view>
+                    <view class="list">
+                        <text>公司注册</text>
+                    </view>
                 </view>
-                <view class="list">
-                    <text>商标变更</text>
+                <text>法律服务</text>
+                <view class='list-wrap list-wrap10'>
+                    <view class="list">
+                        <text>司法文书</text>
+                    </view>
+                    <view class="list">
+                        <text>债权债务</text>
+                    </view>
+                    <view class="list">
+                        <text>劳动人事</text>
+                    </view>
+                    <view class="list">
+                        <text>股权期权</text>
+                    </view>
                 </view>
-                <view class="list">
-                    <text>商标转让</text>
+                <text>税务服务</text>
+                <view class='list-wrap list-wrap10'>
+                    <view class="list">
+                        <text>小规模记账一年</text>
+                    </view>
+                    <view class="list">
+                        <text>一般纳税人记账一年</text>
+                    </view>
                 </view>
-             </view>
+            </view>
         </view>
     </view>
-    <view class="right-item {{tabArr.curBdIndex=='1'? 'active' : ''}}">tab-bd02</view>
-    <view class="right-item {{tabArr.curBdIndex=='2'? 'active' : ''}}">tab-bd03</view>
-    <view class="right-item {{tabArr.curBdIndex=='3'? 'active' : ''}}">tab-bd04</view>
-  </view>
 </view>
+<!--客服-->
+<button class='kf-btn' open-type='contact' session-from='weapp'>
+    <image class='kf-img' src='/images/kf-btn.png'></image>
+</button>

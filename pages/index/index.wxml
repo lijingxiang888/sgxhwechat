@@ -8,36 +8,49 @@
     </swiper>
     <!--大种类-->
     <view class='family'>
-        <view class='family-item'>
+        <view class='family-item' bindtap='gomore' data-id='0'>
             <image src='/images/family_img1.png'></image>
             <text>商标服务</text>
         </view>
-        <view class='family-item'>
+        <view class='family-item' bindtap='gomore' data-id='1'>
             <image src='/images/family_img2.png'></image>
             <text>专利服务</text>
         </view>
-        <view class='family-item'>
+        <view class='family-item' bindtap='gomore' data-id='2'>
             <image src='/images/family_img3.png'></image>
             <text>版权服务</text>
         </view>
-        <view class='family-item'>
+        <view class='family-item' bindtap='gomore' data-id='3'>
             <image src='/images/family_img4.png'></image>
-            <text>创新服务</text>
+            <text>企业服务</text>
         </view>
     </view>
     <!--热门推荐-->
     <view class='hot'>
         <text class='hot-title'>- 热门推荐 -</text>
         <view class='hot-wrap'>
-            <view class='hot-item'></view>
-            <view class='hot-item'></view>
-            <view class='hot-item'></view>
-            <view class='hot-item'></view>
+            <view class='hot-item'>
+                <view class='hot-itemName'>普通商标注册</view>
+                <view class='price'>¥800元</view>
+            </view>
+            <view class='hot-item'>
+                <view class='hot-itemName'>专利挖掘分析</view>
+                <view class='price'>¥50000元</view>
+            </view>
+            <view class='hot-item'>
+                <view class='hot-itemName'>高新申请</view>
+                <view class='price'>¥15900元</view>
+            </view>
+            <view class='hot-item'>
+                <view class='hot-itemName'>软件著作权</view>
+                <view class='price'>¥1500元</view>
+            </view>
         </view>
     </view>
     <!--商标服务-->
     <view class='trademark'>
-        <text class='trademark-title'>- 商标服务 -<text class='more' bindtap='gomore'>更多</text></text>
+        <text class='trademark-title'>- 商标服务 -</text>
+        <text class='more' bindtap='gomore' data-id='0'>更多</text>
         <view class='trademark-itemMax'>
             <view>普通商标注册</view>
             <view>商标加急注册</view>
@@ -54,28 +67,30 @@
     </view>
     <!--专利服务-->
     <view class='patent'>
-        <text class='patent-title'>- 专利服务 -<text class='more'>更多</text></text>
+        <text class='patent-title'>- 专利服务 -</text>
+        <text class='more' bindtap='gomore' data-id='1'>更多</text>
         <view class='patent-itemMax'>
             <view>发明专利申请</view>
             <view>实用新型申请</view>
             <view>外观设计申请</view>
         </view>
         <view class='patent-itemMin'>
-            <view>国际专利</view>
-            <view>专利申请复审</view>
-            <view>专利无效宣告</view>
-            <view>专利权恢复</view>
-            <view>著录项目变更</view>
+            <view>专利挖掘分析</view>
+            <view>专利导航</view>
+            <view>国外专利申请</view>
+            <view>PCT申请</view>
+            <view>审查意见答复</view>
             <view>专利许可备案</view>
         </view>
     </view>
     <!--版权服务-->
     <view class='copyright'>
-        <text class='copyright-title'>- 版权服务 -<text class='more'>更多</text></text>
+        <text class='copyright-title'>- 版权服务 -</text>
+        <text class='more' bindtap='gomore' data-id='2'>更多</text>
         <view class='copyright-itemMax'>
             <view>软件著作权</view>
             <view>作品著作权</view>
-            <view>软件著作权</view>
+            <view>软件著作权转让</view>
         </view>
     </view>
     <!--拨打电话-->
@@ -119,4 +134,8 @@
         <text>Copyright © 2013-2018 bjsgxh.cn</text>
         <text>申注软件提供技术支持</text>
     </view>
+    <!--客服-->
+    <button class='kf-btn' open-type='contact' session-from='weapp'>
+        <image class='kf-img' src='/images/kf-btn.png'></image>
+    </button>
 </view>

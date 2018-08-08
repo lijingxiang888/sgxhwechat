@@ -1,0 +1,75 @@
+1.跳转方式有几种方式，但是如果跳转的页面如果在底部导航了，那必须用wx.switchTab进行跳转
+
+2.wx.switchTab不能带参数，如果有业务需要，需要页面跳转后传递参数，可用全局变量方法。
+http://www.cnblogs.com/baifubin/p/9310795.html
+https://www.cnblogs.com/liyuspace/p/8257722.html
+
+
+3.通过wx.switchTab跳转到A页面里，如果A页面里包含选项卡，再次跳转到A页面后，选项卡没有刷新。可在wx.switchTab里强制刷新页面。
+因为如果tab之前已经打开，再跳转到tab页是不走任何生命周期的。所以只能获取当前打开的所有页，再找到最后的那个页面即时当前显示的页面，跳转成功的那个页面。再调用onLoad方法强制刷新！
+
+wx.switchTab({
+      url: '../index/index',
+      success: function (e) {
+        var page = getCurrentPages().pop();
+        if (page == undefined || page == null) return;
+        page.onLoad(); /*调用onLoad方法强制刷新*/
+      }
+    })
+
+
+4.简单客服功能  https://blog.csdn.net/Afanbaby/article/details/78796968
+
+wxml文件里
+<button class='kf-btn' open-type='contact' session-from='weapp'>
+    <image class='kf-img' src='/images/kf-btn.png'></image>
+</button>
+
+wxss文件里
+.kf-btn {
+    position: fixed;
+    right: 50rpx;
+    bottom: 80rpx;
+    width: 80rpx;
+    height: 80rpx;
+    padding: 0;
+    padding-top: 8rpx;
+    margin: 0;
+    border: none;
+    background-color: #fff;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+.kf-btn::after {
+    border: none;
+}
+.kf-btn .kf-img {
+    width: 80rpx;
+    height: 70rpx;
+    z-index: 999;
+}
+然后登录微信公众号平台，用小程序账户登录，然后添加客服微信号。
+
+
+
+5.微信小程序获取自定义属性
+
+wxml：
+<view class='zright' bindtap='choseCoupon' data-info='{{item}}'  data-id='{{index}}'>
+
+wxss：
+choseCoupon: function (e) {
+    console.log(e.currentTarget.dataset.id)
+    console.log(e.currentTarget.dataset.info)
+}
+
+
+
+
+
+
+
+
+
+
+
