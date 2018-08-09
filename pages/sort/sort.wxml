@@ -16,10 +16,10 @@
                     <view class="list" bindtap='goDetail' data-pid='1'>
                         <text>商标复审</text>
                     </view>
-                    <view class="list">
+                    <view class="list" bindtap='goDetail' data-pid='2'>
                         <text>商标变通加急</text>
                     </view>
-                    <view class="list">
+                    <view class="list" bindtap='goDetail' data-pid='3'>
                         <text>国际商标</text>
                     </view>
                     <view class="list">

@@ -36,5 +36,11 @@ Page({
             }
         })
     },
+    goDetail: function (e) {
+        var pid = e.currentTarget.dataset.pid;
+        wx.navigateTo({
+            url: '../sort/detail/detail?pid=' + pid,
+        })
+    },
 
 })

@@ -29,7 +29,7 @@
     <view class='hot'>
         <text class='hot-title'>- 热门推荐 -</text>
         <view class='hot-wrap'>
-            <view class='hot-item'>
+            <view class='hot-item' bindtap='goDetail' data-pid='0'>
                 <view class='hot-itemName'>普通商标注册</view>
                 <view class='price'>¥800元</view>
             </view>
@@ -52,7 +52,7 @@
         <text class='trademark-title'>- 商标服务 -</text>
         <text class='more' bindtap='gomore' data-id='0'>更多</text>
         <view class='trademark-itemMax'>
-            <view>普通商标注册</view>
+            <view bindtap='goDetail' data-pid='0'>普通商标注册</view>
             <view>商标加急注册</view>
             <view>商标转让</view>
         </view>

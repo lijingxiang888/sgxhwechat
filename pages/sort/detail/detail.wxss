@@ -1,41 +1,91 @@
 .detail-container {
-  padding: 0 20rpx;
-  font-size: 22rpx;
+    padding: 0 20rpx;
+    font-size: 24rpx;
 }
 
 .name-wrap {
-  padding: 30rpx 0;
-  font-size: 26rpx;
-  font-weight: bold;
+    padding: 30rpx 0;
+    font-size: 26rpx;
+    font-weight: bold;
 }
 
 .des-wrap {
-  
 }
 
 .price-wrap {
-  padding-top: 10rpx;
-  padding-bottom: 30rpx;
-  font-size: 28rpx;
-  color: #ff4848;
-  border-bottom: 2rpx solid #e9e7e7;
+    padding-top: 10rpx;
+    padding-bottom: 30rpx;
+    font-size: 28rpx;
+    color: #ff4848;
+    border-bottom: 2rpx solid #e9e7e7;
 }
+
 .value-wrap {
-  padding: 30rpx 0;
-  font-size: 26rpx;
-  font-weight: bold;
+    padding: 30rpx 0;
+    font-size: 26rpx;
+    font-weight: bold;
 }
-.valueTxt-wrap view {
-  margin-bottom: 30rpx;
-  font-size: 24rpx;
+
+.valueTxt-wrap {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
 }
+
+.valueTxt-wrap > view {
+    width: 48%;
+    height: 150rpx;
+    line-height: 150rpx;
+    margin-bottom: 30rpx;
+    font-size: 24rpx;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10rpx;
+}
+
+.valueTxt-wrap > view:nth-of-type(1) {
+    background: url('https://note.youdao.com/yws/api/personal/file/20F1D6DED1F54817A8161B30DE2E2BE5?method=download&shareKey=e1e61b667a271321636a21810881c1b7') no-repeat center;
+    background-size: cover;
+}
+
+.valueTxt-wrap > view:nth-of-type(2) {
+    background: url('https://note.youdao.com/yws/api/personal/file/F16BFA888D124D5C9321531F7778A42C?method=download&shareKey=b2d137ff1d2ef001a33ccea27bde4a73') no-repeat center;
+    background-size: cover;
+}
+
+.valueTxt-wrap > view:nth-of-type(3) {
+    background: url('https://note.youdao.com/yws/api/personal/file/27108CF7071C41E28D1A22788F9A13CF?method=download&shareKey=2cc1c2276617cb40b2b9c0cc9371d19f') no-repeat center;
+    background-size: cover;
+}
+
+.valueTxt-wrap > view:nth-of-type(4) {
+    background: url('https://note.youdao.com/yws/api/personal/file/25E73217E4CC443A844BC61E0FBF1091?method=download&shareKey=a1b8e5fa713d82fd0d3fc5e035007134') no-repeat center;
+    background-size: cover;
+}
+
+.valueTxt-wrap > view view {
+    width: 100%;
+    text-align: center;
+}
+
 .promise {
-  padding: 30rpx 0;
-  font-size: 26rpx;
-  font-weight: bold;
+    padding: 30rpx 0;
+    font-size: 26rpx;
+    font-weight: bold;
 }
 
 .promise-wrap {
-  display: flex;
-  justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.promise-wrap view {
+    width: 21%;
+    height: 200rpx;
+}
+
+.promise-wrap view image {
+    width: 100%;
+    height: 148rpx;
 }

@@ -1,15 +1,26 @@
 <view class='detail-container'>
-  <view class='name-wrap'>{{item.name}}</view>
-  <view class='des-wrap'>{{item.des}}</view>
-  <view class='price-wrap'>{{item.price}}</view>
-  <view class='value-wrap'>{{item.value}}</view>
-  <view class='valueTxt-wrap' wx:for='{{item.valueTxt}}'>
-    <view>{{item}}</view>
-  </view>
-  <view class='promise'>我们承诺</view>
-  <view class='promise-wrap'>
-    <view>1</view>
-    <view>2</view>
-    <view>3</view>
-  </view>
+    <view class='name-wrap'>{{item.name}}</view>
+    <view class='des-wrap'>{{item.des}}</view>
+    <view class='price-wrap'>{{item.price}}</view>
+    <view class='value-wrap'>{{item.value}}</view>
+    <view class='valueTxt-wrap'>
+        <view wx:for='{{item.valueTxt}}'>
+            <view>{{item}}</view>
+        </view>
+    </view>
+    <view class='promise'>我们承诺</view>
+    <view class='promise-wrap'>
+        <view>
+            <image src='/images/promise1.png'></image>
+            <text>授权担保服务不成功就退款</text>
+        </view>
+        <view>
+            <image src='/images/promise2.png'></image>
+            <text>案件多重审核确保服务质量</text>
+        </view>
+        <view>
+            <image src='/images/promise3.png'></image>
+            <text>一对一专家服务指导更省心</text>
+        </view>
+    </view>
 </view>

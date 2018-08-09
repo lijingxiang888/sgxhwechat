@@ -12,28 +12,28 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function(options) {
-    var pid = options.pid;
-    var item = listData.find((item)=>{
-      return item.pid == pid;
-    });
-    this.setData({
-      item:item
-    })
-    console.log(item)
+      var pid = options.pid;
+      var item = listData.find((item) => {
+          return item.pid == pid;
+      });
+      this.setData({
+          item: item
+      })
+      console.log(item)
   },
 
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function() {
-
+      
   },
 
   /**
    * 生命周期函数--监听页面显示
    */
   onShow: function() {
-
+      
   },
 
   /**
