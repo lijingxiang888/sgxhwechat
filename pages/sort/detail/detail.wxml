@@ -1,0 +1,15 @@
+<view class='detail-container'>
+  <view class='name-wrap'>{{item.name}}</view>
+  <view class='des-wrap'>{{item.des}}</view>
+  <view class='price-wrap'>{{item.price}}</view>
+  <view class='value-wrap'>{{item.value}}</view>
+  <view class='valueTxt-wrap' wx:for='{{item.valueTxt}}'>
+    <view>{{item}}</view>
+  </view>
+  <view class='promise'>我们承诺</view>
+  <view class='promise-wrap'>
+    <view>1</view>
+    <view>2</view>
+    <view>3</view>
+  </view>
+</view>

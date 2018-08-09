@@ -2,8 +2,8 @@
     "pages": [
         "pages/sort/sort",
         "pages/index/index",
-        
-        "pages/site/site"
+        "pages/site/site",
+        "pages/sort/detail/detail"
     ],
     "window": {
         "backgroundTextStyle": "light",

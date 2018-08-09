@@ -10,10 +10,10 @@
             <view class="list-content">
                 <text>商标服务</text>
                 <view class="list-wrap list-wrap1">
-                    <view class="list">
+                    <view class="list" bindtap='goDetail' data-pid='0'>
                         <text>普通商标注册</text>
                     </view>
-                    <view class="list">
+                    <view class="list" bindtap='goDetail' data-pid='1'>
                         <text>商标复审</text>
                     </view>
                     <view class="list">

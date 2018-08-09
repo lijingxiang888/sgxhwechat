@@ -19,6 +19,12 @@ Page({
             tabArr: _obj
         });
     },
+    goDetail: function(e) {
+      var pid = e.currentTarget.dataset.pid;
+        wx.navigateTo({
+          url: 'detail/detail?pid=' + pid,
+        })
+    },
     onLoad: function(e) {
         var _opId = app.globalData.opId;
         if (_opId == undefined || _opId == null) {
