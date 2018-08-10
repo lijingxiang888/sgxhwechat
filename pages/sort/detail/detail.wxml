@@ -24,3 +24,7 @@
         </view>
     </view>
 </view>
+<!--客服-->
+<button class='kf-btn' open-type='contact' session-from='weapp'>
+    <image class='kf-img' src='/images/kf-btn.png'></image>
+</button>

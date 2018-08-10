@@ -464,10 +464,93 @@
     background-position-y: -530rpx;
 }
 
+.list-content .list-wrap9 .list:nth-of-type(2) {
+    background: url('https://note.youdao.com/yws/api/personal/file/75522992F91340F8A2FCFA385A578B77?method=download&shareKey=130d7cb9805cac916b695d1bb5710609');
+    background-size: 648rpx 1404rpx;
+    background-position-x:-320rpx;
+    background-position-y:-311rpx;
+}
+
+.list-content .list-wrap9 .list:nth-of-type(3) {
+    background: url('https://note.youdao.com/yws/api/personal/file/75522992F91340F8A2FCFA385A578B77?method=download&shareKey=130d7cb9805cac916b695d1bb5710609');
+    background-size: 648rpx 1404rpx;
+    background-position-x:4rpx;
+    background-position-y:-1073rpx;
+}
+
+.list-content .list-wrap9 .list:nth-of-type(4) {
+    background: url('https://note.youdao.com/yws/api/personal/file/75522992F91340F8A2FCFA385A578B77?method=download&shareKey=130d7cb9805cac916b695d1bb5710609');
+    background-size: 648rpx 1404rpx;
+    background-position-x: 115rpx;
+    background-position-y: -415rpx;
+}
+
+.list-content .list-wrap9 .list:nth-of-type(5) {
+    background: url('https://note.youdao.com/yws/api/personal/file/75522992F91340F8A2FCFA385A578B77?method=download&shareKey=130d7cb9805cac916b695d1bb5710609');
+    background-size: 648rpx 1404rpx;
+    background-position-x:-530rpx;
+    background-position-y:-208rpx;
+}
+
+.list-content .list-wrap9 .list:nth-of-type(6) {
+    background: url('https://note.youdao.com/yws/api/personal/file/75522992F91340F8A2FCFA385A578B77?method=download&shareKey=130d7cb9805cac916b695d1bb5710609');
+    background-size: 648rpx 1404rpx;
+    background-position-x: 115rpx;
+    background-position-y: -750rpx;
+}
+
+.list-content .list-wrap9 .list:nth-of-type(7) {
+    background: url('https://note.youdao.com/yws/api/personal/file/75522992F91340F8A2FCFA385A578B77?method=download&shareKey=130d7cb9805cac916b695d1bb5710609');
+    background-size: 648rpx 1404rpx;
+    background-position-x: -208rpx;
+    background-position-y: 222rpx;
+}
+
 /*法律服务*/
 
+.list-content .list-wrap10 .list:nth-of-type(1) {
+    background: url('https://note.youdao.com/yws/api/personal/file/75522992F91340F8A2FCFA385A578B77?method=download&shareKey=130d7cb9805cac916b695d1bb5710609');
+    background-size: 648rpx 1404rpx;
+    background-position-x:-205rpx;
+    background-position-y:-314rpx;
+}
 
-/*客服*/
+.list-content .list-wrap10 .list:nth-of-type(2) {
+    background: url('https://note.youdao.com/yws/api/personal/file/75522992F91340F8A2FCFA385A578B77?method=download&shareKey=130d7cb9805cac916b695d1bb5710609');
+    background-size: 648rpx 1404rpx;
+    background-position-x: -427rpx;
+    background-position-y: -746rpx;
+}
+
+.list-content .list-wrap10 .list:nth-of-type(3) {
+    background: url('https://note.youdao.com/yws/api/personal/file/75522992F91340F8A2FCFA385A578B77?method=download&shareKey=130d7cb9805cac916b695d1bb5710609');
+    background-size: 648rpx 1404rpx;
+    background-position-x: -320rpx;
+    background-position-y: -750rpx;
+}
+
+.list-content .list-wrap10 .list:nth-of-type(4) {
+    background: url('https://note.youdao.com/yws/api/personal/file/75522992F91340F8A2FCFA385A578B77?method=download&shareKey=130d7cb9805cac916b695d1bb5710609');
+    background-size: 648rpx 1404rpx;
+    background-position-x: 10rpx;
+    background-position-y: -421rpx;
+}
+/*税务服务*/
+
+.list-content .list-wrap11 .list:nth-of-type(1) {
+    background: url('https://note.youdao.com/yws/api/personal/file/75522992F91340F8A2FCFA385A578B77?method=download&shareKey=130d7cb9805cac916b695d1bb5710609');
+    background-size: 648rpx 1404rpx;
+    background-position-x: 220rpx;
+    background-position-y: -856rpx;
+}
+
+.list-content .list-wrap11 .list:nth-of-type(2) {
+    background: url('https://note.youdao.com/yws/api/personal/file/75522992F91340F8A2FCFA385A578B77?method=download&shareKey=130d7cb9805cac916b695d1bb5710609');
+    background-size: 648rpx 1404rpx;
+    background-position-x: 121rpx;
+    background-position-y: -1187rpx;
+}
+
 /*客服*/
 .kf-btn {
     position: fixed;

@@ -22,22 +22,22 @@
                     <view class="list" bindtap='goDetail' data-pid='3'>
                         <text>国际商标</text>
                     </view>
-                    <view class="list">
+                    <view class="list" bindtap='goDetail' data-pid='4'>
                         <text>集体商标注册</text>
                     </view>
-                    <view class="list">
+                    <view class="list" bindtap='goDetail' data-pid='5'>
                         <text>证明商标注册</text>
                     </view>
-                    <view class="list">
+                    <view class="list" bindtap='goDetail' data-pid='6'>
                         <text>申请商标更正</text>
                     </view>
-                    <view class="list">
+                    <view class="list" bindtap='goDetail' data-pid='7'>
                         <text>商标加急注册</text>
                     </view>
-                    <view class="list">
+                    <view class="list" bindtap='goDetail' data-pid='8'>
                         <text>商标注册证明申请</text>
                     </view>
-                    <view class="list">
+                    <view class="list" bindtap='goDetail' data-pid='9'>
                         <text>补发商标注册证</text>
                     </view>
                 </view>
@@ -237,7 +237,7 @@
                     </view>
                 </view>
                 <text>税务服务</text>
-                <view class='list-wrap list-wrap10'>
+                <view class='list-wrap list-wrap11'>
                     <view class="list">
                         <text>小规模记账一年</text>
                     </view>
