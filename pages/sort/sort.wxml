@@ -43,31 +43,31 @@
                 </view>
                 <text>商标周边</text>
                 <view class='list-wrap list-wrap2'>
-                    <view class="list">
+                    <view class="list" bindtap='goDetail' data-pid='10'>
                         <text>商标异议</text>
                     </view>
-                    <view class="list">
+                    <view class="list" bindtap='goDetail' data-pid='11'>
                         <text>商标设计</text>
                     </view>
-                    <view class="list">
+                    <view class="list" bindtap='goDetail' data-pid='12'>
                         <text>商标续展</text>
                     </view>
-                    <view class="list">
+                    <view class="list" bindtap='goDetail' data-pid='13'>
                         <text>注销商标</text>
                     </view>
-                    <view class="list">
+                    <view class="list" bindtap='goDetail' data-pid='14'>
                         <text>商标深度查询</text>
                     </view>
-                    <view class="list">
+                    <view class="list" bindtap='goDetail' data-pid='15'>
                         <text>商标质押评估</text>
                     </view>
-                    <view class="list">
+                    <view class="list" bindtap='goDetail' data-pid='16'>
                         <text>著名驰名商标</text>
                     </view>
-                    <view class="list">
+                    <view class="list" bindtap='goDetail' data-pid='17'>
                         <text>商标变更</text>
                     </view>
-                    <view class="list">
+                    <view class="list" bindtap='goDetail' data-pid='18'>
                         <text>商标转让</text>
                     </view>
                 </view>
@@ -77,16 +77,16 @@
             <view class="list-content">
                 <text>专利分析</text>
                 <view class="list-wrap list-wrap3">
-                    <view class="list">
+                    <view class="list" bindtap='goDetail' data-pid='19'>
                         <text>专利挖掘分析</text>
                     </view>
-                    <view class="list">
+                    <view class="list" bindtap='goDetail' data-pid='20'>
                         <text>专利导航</text>
                     </view>
-                    <view class="list">
+                    <view class="list" bindtap='goDetail' data-pid='21'>
                         <text>专利侵权预警分析</text>
                     </view>
-                    <view class="list">
+                    <view class="list" bindtap='goDetail' data-pid='22'>
                         <text>专利战略分析</text>
                     </view>
                 </view>
