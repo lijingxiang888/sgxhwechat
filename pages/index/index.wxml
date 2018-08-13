@@ -33,15 +33,15 @@
                 <view class='hot-itemName'>普通商标注册</view>
                 <view class='price'>¥800元</view>
             </view>
-            <view class='hot-item'>
+            <view class='hot-item' bindtap='goDetail' data-pid='19'>
                 <view class='hot-itemName'>专利挖掘分析</view>
                 <view class='price'>¥50000元</view>
             </view>
-            <view class='hot-item'>
+            <view class='hot-item' bindtap='goDetail' data-pid='44'>
                 <view class='hot-itemName'>高新申请</view>
                 <view class='price'>¥15900元</view>
             </view>
-            <view class='hot-item'>
+            <view class='hot-item' bindtap='goDetail' data-pid='41'>
                 <view class='hot-itemName'>软件著作权</view>
                 <view class='price'>¥1500元</view>
             </view>
@@ -53,16 +53,16 @@
         <text class='more' bindtap='gomore' data-id='0'>更多</text>
         <view class='trademark-itemMax'>
             <view bindtap='goDetail' data-pid='0'>普通商标注册</view>
-            <view>商标加急注册</view>
-            <view>商标转让</view>
+            <view bindtap='goDetail' data-pid='7'>商标加急注册</view>
+            <view bindtap='goDetail' data-pid='18'>商标转让</view>
         </view>
         <view class='trademark-itemMin'>
-            <view>国际商标</view>
-            <view>商标驳回复审</view>
-            <view>商标异议</view>
-            <view>商标变更</view>
-            <view>著名驰名商标</view>
-            <view>商标续展</view>
+            <view bindtap='goDetail' data-pid='3'>国际商标</view>
+            <view bindtap='goDetail' data-pid='1'>商标驳回复审</view>
+            <view bindtap='goDetail' data-pid='10'>商标异议</view>
+            <view bindtap='goDetail' data-pid='17'>商标变更</view>
+            <view bindtap='goDetail' data-pid='16'>著名驰名商标</view>
+            <view bindtap='goDetail' data-pid='12'>商标续展</view>
         </view>
     </view>
     <!--专利服务-->
@@ -70,17 +70,17 @@
         <text class='patent-title'>- 专利服务 -</text>
         <text class='more' bindtap='gomore' data-id='1'>更多</text>
         <view class='patent-itemMax'>
-            <view>发明专利申请</view>
-            <view>实用新型申请</view>
-            <view>外观设计申请</view>
+            <view bindtap='goDetail' data-pid='29'>发明专利申请</view>
+            <view bindtap='goDetail' data-pid='30'>实用新型申请</view>
+            <view bindtap='goDetail' data-pid='31'>外观设计申请</view>
         </view>
         <view class='patent-itemMin'>
-            <view>专利挖掘分析</view>
-            <view>专利导航</view>
-            <view>国外专利申请</view>
-            <view>PCT申请</view>
-            <view>审查意见答复</view>
-            <view>专利许可备案</view>
+            <view bindtap='goDetail' data-pid='19'>专利挖掘分析</view>
+            <view bindtap='goDetail' data-pid='20'>专利导航</view>
+            <view bindtap='goDetail' data-pid='23'>国外专利申请</view>
+            <view bindtap='goDetail' data-pid='27'>PCT申请</view>
+            <view bindtap='goDetail' data-pid='34'>审查意见答复</view>
+            <view bindtap='goDetail' data-pid='19'>专利许可备案</view>
         </view>
     </view>
     <!--版权服务-->

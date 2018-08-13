@@ -92,61 +92,61 @@
                 </view>
                 <text>专利申请</text>
                 <view class='list-wrap list-wrap4'>
-                    <view class="list">
+                    <view class="list" bindtap='goDetail' data-pid='23'>
                         <text>国外专利申请</text>
                     </view>
-                    <view class="list">
+                    <view class="list" bindtap='goDetail' data-pid='24'>
                         <text>巴黎公约专利申请</text>
                     </view>
-                    <view class="list">
+                    <view class="list" bindtap='goDetail' data-pid='25'>
                         <text>免费代缴专利年费</text>
                     </view>
-                    <view class="list">
+                    <view class="list" bindtap='goDetail' data-pid='26'>
                         <text>发明新型同日申请</text>
                     </view>
-                    <view class="list">
+                    <view class="list" bindtap='goDetail' data-pid='27'>
                         <text>PCT申请</text>
                     </view>
-                    <view class="list">
+                    <view class="list" bindtap='goDetail' data-pid='28'>
                         <text>专利实施许可备案</text>
                     </view>
-                    <view class="list">
+                    <view class="list" bindtap='goDetail' data-pid='29'>
                         <text>发明专利</text>
                     </view>
-                    <view class="list">
+                    <view class="list" bindtap='goDetail' data-pid='30'>
                         <text>实用新型专利</text>
                     </view>
-                    <view class="list">
+                    <view class="list" bindtap='goDetail' data-pid='31'>
                         <text>外观设计专利</text>
                     </view>
                 </view>
                 <text>专利周边</text>
                 <view class='list-wrap list-wrap5'>
-                    <view class="list">
+                    <view class="list" bindtap='goDetail' data-pid='32'>
                         <text>专利申请复审</text>
                     </view>
-                    <view class="list">
+                    <view class="list" bindtap='goDetail' data-pid='33'>
                         <text>专利无效答辩</text>
                     </view>
-                    <view class="list">
+                    <view class="list" bindtap='goDetail' data-pid='34'>
                         <text>审查意见答复</text>
                     </view>
-                    <view class="list">
+                    <view class="list" bindtap='goDetail' data-pid='35'>
                         <text>专利权恢复</text>
                     </view>
-                    <view class="list">
+                    <view class="list" bindtap='goDetail' data-pid='36'>
                         <text>专利权评估报告</text>
                     </view>
-                    <view class="list">
+                    <view class="list" bindtap='goDetail' data-pid='37'>
                         <text>著录项目变更</text>
                     </view>
-                    <view class="list">
+                    <view class="list" bindtap='goDetail' data-pid='38'>
                         <text>专利管理软件</text>
                     </view>
-                    <view class="list">
+                    <view class="list" bindtap='goDetail' data-pid='39'>
                         <text>专利无效</text>
                     </view>
-                    <view class="list">
+                    <view class="list" bindtap='goDetail' data-pid='40'>
                         <text>专利数据库</text>
                     </view>
                 </view>
@@ -156,13 +156,13 @@
             <view class='list-content'>
                 <text>办著作权</text>
                 <view class='list-wrap list-wrap6'>
-                    <view class="list">
+                    <view class="list" bindtap='goDetail' data-pid='41'>
                         <text>软件著作权</text>
                     </view>
-                    <view class="list">
+                    <view class="list" bindtap='goDetail' data-pid='42'>
                         <text>作品著作权</text>
                     </view>
-                    <view class="list">
+                    <view class="list" bindtap='goDetail' data-pid='43'>
                         <text>著作权转让</text>
                     </view>
                 </view>
@@ -172,76 +172,76 @@
             <view class='list-content'>
                 <text>高新服务</text>
                 <view class='list-wrap list-wrap7'>
-                    <view class="list">
+                    <view class="list" bindtap='goDetail' data-pid='44'>
                         <text>高新申请</text>
                     </view>
-                    <view class="list">
+                    <view class="list" bindtap='goDetail' data-pid='45'>
                         <text>高新培育</text>
                     </view>
-                    <view class="list">
+                    <view class="list" bindtap='goDetail' data-pid='46'>
                         <text>创新基金申报</text>
                     </view>
                 </view>
                 <text>资质认证</text>
                 <view class='list-wrap list-wrap8'>
-                    <view class="list">
+                    <view class="list" bindtap='goDetail' data-pid='47'>
                         <text>软件登记</text>
                     </view>
-                    <view class="list">
+                    <view class="list" bindtap='goDetail' data-pid='48'>
                         <text>18000认证</text>
                     </view>
-                    <view class="list">
+                    <view class="list" bindtap='goDetail' data-pid='49'>
                         <text>14000认证</text>
                     </view>
-                    <view class="list">
+                    <view class="list" bindtap='goDetail' data-pid='50'>
                         <text>ISO9000认证</text>
                     </view>
                 </view>
                 <text>企业服务</text>
                 <view class='list-wrap list-wrap9'>
-                    <view class="list">
+                    <view class="list" bindtap='goDetail' data-pid='51'>
                         <text>知识产权贯标服务</text>
                     </view>
-                    <view class="list">
-                        <text>两话融合</text>
+                    <view class="list" bindtap='goDetail' data-pid='52'>
+                        <text>两化融合</text>
                     </view>
-                    <view class="list">
+                    <view class="list" bindtap='goDetail' data-pid='53'>
                         <text>融资上市</text>
                     </view>
-                    <view class="list">
+                    <view class="list" bindtap='goDetail' data-pid='54'>
                         <text>企业文化培训</text>
                     </view>
-                    <view class="list">
+                    <view class="list" bindtap='goDetail' data-pid='55'>
                         <text>企业站制作</text>
                     </view>
-                    <view class="list">
+                    <view class="list" bindtap='goDetail' data-pid='56'>
                         <text>公司变更</text>
                     </view>
-                    <view class="list">
+                    <view class="list" bindtap='goDetail' data-pid='57'>
                         <text>公司注册</text>
                     </view>
                 </view>
                 <text>法律服务</text>
                 <view class='list-wrap list-wrap10'>
-                    <view class="list">
+                    <view class="list" bindtap='goDetail' data-pid='58'>
                         <text>司法文书</text>
                     </view>
-                    <view class="list">
+                    <view class="list" bindtap='goDetail' data-pid='59'>
                         <text>债权债务</text>
                     </view>
-                    <view class="list">
-                        <text>劳动人事</text>
+                    <view class="list" bindtap='goDetail' data-pid='60'>
+                        <text>劳动合同</text>
                     </view>
-                    <view class="list">
+                    <view class="list" bindtap='goDetail' data-pid='61'>
                         <text>股权期权</text>
                     </view>
                 </view>
                 <text>税务服务</text>
                 <view class='list-wrap list-wrap11'>
-                    <view class="list">
+                    <view class="list" bindtap='goDetail' data-pid='62'>
                         <text>小规模记账一年</text>
                     </view>
-                    <view class="list">
+                    <view class="list" bindtap='goDetail' data-pid='63'>
                         <text>一般纳税人记账一年</text>
                     </view>
                 </view>
