@@ -13,7 +13,7 @@ Page({
     },
     tel: function() {
         wx.makePhoneCall({
-            phoneNumber: '18233283758',
+            phoneNumber: '18611258636',
             success: function() {
                 console.log('拨打电话成功')
             },
@@ -24,7 +24,7 @@ Page({
     },
     gomore: function(e) {
         var opId = e.currentTarget.dataset.id;
-        console.log("点击的more索引是" + opId); 
+        /*console.log("点击的more索引是" + opId); */
         app.globalData.opId = opId;
         wx.switchTab({
             url: '../sort/sort',

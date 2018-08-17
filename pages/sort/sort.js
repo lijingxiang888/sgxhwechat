@@ -11,7 +11,7 @@ Page({
     tabFun: function(e) {
         //获取触发事件组件的dataset属性
         var _datasetId = e.target.dataset.id;
-        console.log("----" + _datasetId + "----");
+        /*console.log("----" + _datasetId + "----");*/
         var _obj = {};
         _obj.curHdIndex = _datasetId;
         _obj.curBdIndex = _datasetId;
@@ -30,7 +30,7 @@ Page({
         if (_opId == undefined || _opId == null) {
             _opId = 0;/*解决不点击more，跳转分类页时tabArr没数据 */
         }
-        console.log("****" + _opId + "****");
+        /*console.log("****" + _opId + "****");*/
         var _opobj = {};
         _opobj.curHdIndex = _opId;
         _opobj.curBdIndex = _opId;

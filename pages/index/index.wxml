@@ -80,7 +80,7 @@
             <view bindtap='goDetail' data-pid='23'>国外专利申请</view>
             <view bindtap='goDetail' data-pid='27'>PCT申请</view>
             <view bindtap='goDetail' data-pid='34'>审查意见答复</view>
-            <view bindtap='goDetail' data-pid='19'>专利许可备案</view>
+            <view bindtap='goDetail' data-pid='28'>专利许可备案</view>
         </view>
     </view>
     <!--版权服务-->
@@ -88,9 +88,9 @@
         <text class='copyright-title'>- 版权服务 -</text>
         <text class='more' bindtap='gomore' data-id='2'>更多</text>
         <view class='copyright-itemMax'>
-            <view>软件著作权</view>
-            <view>作品著作权</view>
-            <view>软件著作权转让</view>
+            <view bindtap='goDetail' data-pid='41'>软件著作权</view>
+            <view bindtap='goDetail' data-pid='42'>作品著作权</view>
+            <view bindtap='goDetail' data-pid='43'>软件著作权转让</view>
         </view>
     </view>
     <!--拨打电话-->

@@ -19,7 +19,6 @@ Page({
       this.setData({
           item: item
       })
-      console.log(item)
   },
 
   /**

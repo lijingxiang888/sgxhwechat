@@ -124,42 +124,42 @@
     background: url('https://note.youdao.com/yws/api/personal/file/75522992F91340F8A2FCFA385A578B77?method=download&shareKey=130d7cb9805cac916b695d1bb5710609');
     background-size: 648rpx 1404rpx;
     background-position-x: 115rpx;
-    background-position-y: -415rpx;
+    background-position-y: -420rpx;
 }
 
 .list-content .list-wrap1 .list:nth-of-type(6) {
     background: url('https://note.youdao.com/yws/api/personal/file/75522992F91340F8A2FCFA385A578B77?method=download&shareKey=130d7cb9805cac916b695d1bb5710609');
     background-size: 648rpx 1404rpx;
     background-position-x: 10rpx;
-    background-position-y: -525rpx;
+    background-position-y: -530rpx;
 }
 
 .list-content .list-wrap1 .list:nth-of-type(7) {
     background: url('https://note.youdao.com/yws/api/personal/file/75522992F91340F8A2FCFA385A578B77?method=download&shareKey=130d7cb9805cac916b695d1bb5710609');
     background-size: 648rpx 1404rpx;
     background-position-x: 220rpx;
-    background-position-y: -850rpx;
+    background-position-y: -855rpx;
 }
 
 .list-content .list-wrap1 .list:nth-of-type(8) {
     background: url('https://note.youdao.com/yws/api/personal/file/75522992F91340F8A2FCFA385A578B77?method=download&shareKey=130d7cb9805cac916b695d1bb5710609');
     background-size: 648rpx 1404rpx;
     background-position-x: 335rpx;
-    background-position-y: -1065rpx;
+    background-position-y: -1070rpx;
 }
 
 .list-content .list-wrap1 .list:nth-of-type(9) {
     background: url('https://note.youdao.com/yws/api/personal/file/75522992F91340F8A2FCFA385A578B77?method=download&shareKey=130d7cb9805cac916b695d1bb5710609');
     background-size: 648rpx 1404rpx;
     background-position-x: 8rpx;
-    background-position-y: -955rpx;
+    background-position-y: -962rpx;
 }
 
 .list-content .list-wrap1 .list:nth-of-type(10) {
     background: url('https://note.youdao.com/yws/api/personal/file/75522992F91340F8A2FCFA385A578B77?method=download&shareKey=130d7cb9805cac916b695d1bb5710609');
     background-size: 648rpx 1404rpx;
     background-position-x: 115rpx;
-    background-position-y: -845rpx;
+    background-position-y: -851rpx;
 }
 
 /*商标周边*/
@@ -547,7 +547,7 @@
 .list-content .list-wrap11 .list:nth-of-type(2) {
     background: url('https://note.youdao.com/yws/api/personal/file/75522992F91340F8A2FCFA385A578B77?method=download&shareKey=130d7cb9805cac916b695d1bb5710609');
     background-size: 648rpx 1404rpx;
-    background-position-x: 121rpx;
+    background-position-x: 117rpx;
     background-position-y: -1187rpx;
 }
 
